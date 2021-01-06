@@ -70,11 +70,12 @@ html {
     height: max-content;
 }
 
-
 .main__information {
     width: 90%;
     height: max-content;
     margin: 0 auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 .main__information--img,
@@ -154,6 +155,7 @@ html {
 
 .main__information--description--form button,
 .main__access--form button {
+    padding: 10px;
     font-size: 1.4rem;
     font-weight: 700;
     font-family: var(--mainTypeface);
@@ -166,21 +168,20 @@ html {
 
 .main__information--description--form button:active,
 .main__access--form button:active {
-    box-shadow: 2px 3px 0px #71717196;
     transition: all .2s ease 0s;
 }
 
 
-.main__extra {
+.main__extra--container {
     background-color: var(--lightGrayishBlue);
 }
 
-.main__extra--container {
+.main__extra {
     width: 100%;
     height: max-content;
     margin-top: 40px;
-    padding-bottom: 30px;
-    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 .main__extra--description {
@@ -191,7 +192,7 @@ html {
 }
 
 .main__extra--description h2,
-.main__access h2 {
+.main__access--info h2 {
     margin-bottom: 20px;
     font-size: 2rem;
     font-weight: 700;
@@ -201,12 +202,12 @@ html {
 .main__extra--description h2 {
     color: var(--veryDarkBlue);
 }
-.main__access h2 {
+.main__access--info h2 {
     color: var(--lightGrayishBlue)
 }
 
 .main__extra--description p,
-.main__access p {
+.main__access--info p {
     margin-top: 10px;
     font-size: 1.4rem;
     font-weight: 400;
@@ -215,14 +216,14 @@ html {
 .main__extra--description p {
     color: var(--veryDarkBlue);
 }
-.main__access p {
+.main__access--info p {
     color: var(--lightGrayishBlue);
     text-align: center;
 }
 
 .main__extra--description-link {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     text-align: center;
 }
 
@@ -243,9 +244,8 @@ html {
 }
 
 .main__extra--article {
-    width: 80%;
+    width: 100%;
     height: max-content;
-    margin: 40px auto 0 auto;
     padding: 20px;
     background-color: white;
     color: var(--veryDarkBlue);
@@ -301,12 +301,14 @@ html {
     font-family: var(--secondaryTypeface);
 }
 
+.main__access--container {
+    background-color: var(--desaturatedBlue);
+}
 
 .main__access {
     width: 100%;
     height: max-content;
-    padding: 30px;
-    background-color: var(--desaturatedBlue);
+    padding: 50px;
 }
 
 .main__access--form {
@@ -315,10 +317,11 @@ html {
     height: max-content;
 }
 
+
 .footer {
     width: 100%;
     height: max-content;
-    padding: 30px;
+    padding: 50px;
     background-color: var(--mediumBlue);
 }
 
@@ -430,4 +433,11 @@ html {
 .made-by a:hover {
     color: var(--moderateCyan);
     border-bottom: none;
+}
+
+/* ----- Focus ----- */
+a:focus,
+button:focus,
+input:focus {
+    outline: 2px dashed var(--madeBy);
 }

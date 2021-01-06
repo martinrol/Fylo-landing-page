@@ -1,0 +1,156 @@
+.container {
+    max-width: 1440px;
+}
+
+.header figure {
+    width: 105px;
+    height: 30px;
+}
+
+.main__information {
+    display: flex;
+    align-items: center;
+}
+
+.main__information--img,
+.main__extra--img {
+    align-self: center;
+    margin-left: 30px;
+    order: 2;
+    height: 350px;
+}
+
+.main__information--description--form form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main__information--description--form input {
+    width: 60%;
+}
+
+.main__information--description--form button {
+    width: 38%;
+}
+
+
+.main__extra {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main__extra--article {
+    width: 70%;
+    margin: 0;
+}
+
+.main__extra--article-user figure {
+    height: 50px;
+    width: 50px;
+}
+
+
+.main__access {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.main__access--info,
+.main__access--form {
+    justify-items: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.main__access--info {
+    margin-right: 60px;
+}
+
+.main__access--form {
+    margin: 0;
+    align-self: center;
+}
+
+.main__access--form button {
+    width: 60%;
+    max-width: 240px;
+}
+
+.main__access--info h2,
+.main__access--info p {
+    text-align: start;
+}
+
+.main__extra--description h2,
+.main__extra--description-link {
+    text-align: start;
+}
+
+.footer figure,
+.footer__details {
+    max-width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer__details {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer__details--nav,
+.footer__details--nav-two,
+.footer__details--social {
+    margin-top: 0px;
+}
+
+.footer__details--social ul {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footer__details--social li {
+    margin-left: 15px;
+}
+
+
+/* ----- Fonts ----- */
+.main__information--description h1 {
+    font-size: 3rem;
+}
+
+.header nav a,
+.main__information--description p,
+.main__information--description--form button,
+.main__access--form button,
+.main__extra--description p,
+.main__access--info p,
+.main__extra--article p,
+.footer__details,
+.made-by {
+    font-size: 1.6rem;
+}
+
+.main__extra--description h2,
+.main__access--info h2 {
+    font-size: 2.2rem;
+}
+
+.main__extra--description-link a {
+    font-size: 1.8rem;
+}
+
+.main__extra--article-user-name h3 {
+    font-size: 1.7rem;
+}
+
+.main__extra--article-user-name p {
+    font-size: 1.4rem;
+}
+
